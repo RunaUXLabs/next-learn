@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import NavLinks from '@/app/ui/dashboard/nav-links';
+import Link from 'next/link'; // 네비게이션을 위한 링크컴포넌트 가져오기
+import NavLinks from '@/app/ui/dashboard/nav-links'; // <Link />로 만든 링크모음
 import AcmeLogo from '@/app/ui/acme-logo';
 import { PowerIcon } from '@heroicons/react/24/outline';
 

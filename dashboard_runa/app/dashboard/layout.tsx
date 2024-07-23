@@ -1,4 +1,5 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+// 모바일이하에선 top nav, 태블릿 이상에선 side nav 컴포넌트 가져오기 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

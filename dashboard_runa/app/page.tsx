@@ -1,6 +1,6 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
+import Link from 'next/link'; // 네비게이션을 위한 링크컴포넌트 가져오기
 import styles from '@/app/ui/home.module.css';
 // css를 모듈식으로 가져오면 로컬(지역)적용으로 충돌방지 가능
 import { lusitana } from '@/app/ui/fonts';
