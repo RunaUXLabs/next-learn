@@ -99,6 +99,7 @@ export async function fetchCardData() {
   }
 }
 
+// 페이지당 최대 6개의 송장을 반환
 const ITEMS_PER_PAGE = 6;
 export async function fetchFilteredInvoices(
   query: string,
@@ -174,6 +175,7 @@ export async function fetchInvoiceById(id: string) {
       amount: invoice.amount / 100,
     }));
 
+    console.log(invoice);
     return invoice[0];
   } catch (error) {
     console.error('Database Error:', error);
